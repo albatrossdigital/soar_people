@@ -1,0 +1,14 @@
+; App manifest file
+; See https://groups.drupal.org/open-app-standard/oas#manifest
+
+name = Soar People
+description = List a team of people with dedicated profile for each person
+color = #3C6526
+version = 1.0-alpha1
+author = Albatross Digital
+author_url = http://www.albatrossdigital.com
+machine_name = soar_people
+downloadable = soar_people
+dependencies[views] = views 7.x-1.0
+downloadables[soar_people] = https://github.com/albatrossdigital/soar_people/archive/master.zip
+package = Addon Apps
